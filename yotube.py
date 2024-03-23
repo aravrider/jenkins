@@ -16,4 +16,7 @@ def download_video(video_url, output_path):
 if __name__ == "__main__":
     # Example usage:
     video_url = "https://youtu.be/mtdrCqU58rE?si=HzoLUDBZE0Z1lI9M"
-    download_video(video_url)
+    output_path = "/var/lib/jenkins/workspace/stube/"
+    download_video(video_url, output_path)
+
+    
